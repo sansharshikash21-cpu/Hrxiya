@@ -1,2 +1,0 @@
-# Hrxiya
-Wallpapers

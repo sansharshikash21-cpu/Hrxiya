@@ -1,0 +1,64 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wallpaper Hub</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #fff;
+    }
+    header {
+      padding: 20px;
+      text-align: center;
+      background: #020617;
+    }
+    h1 {
+      margin: 0;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+      padding: 20px;
+    }
+    .card {
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    }
+    .card img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+    .card img:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #020617;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Wallpaper Hub</h1>
+    <p>Free HD & 4K Wallpapers</p>
+  </header>  <main class="grid">
+    <div class="card"><img src="https://picsum.photos/600/800?1" alt="Wallpaper"></div>
+    <div class="card"><img src="https://picsum.photos/600/800?2" alt="Wallpaper"></div>
+    <div class="card"><img src="https://picsum.photos/600/800?3" alt="Wallpaper"></div>
+    <div class="card"><img src="https://picsum.photos/600/800?4" alt="Wallpaper"></div>
+    <div class="card"><img src="https://picsum.photos/600/800?5" alt="Wallpaper"></div>
+    <div class="card"><img src="https://picsum.photos/600/800?6" alt="Wallpaper"></div>
+  </main>  <footer>
+    © 2025 Wallpaper Hub | All rights reserved
+  </footer>
+</body>
+</html>
